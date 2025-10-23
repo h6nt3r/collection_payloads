@@ -10,6 +10,7 @@ site:example.com inurl:"submit a report" | intitle:"submit a report"
 site:example.com inurl:"Support Center" | intitle:"Support Center"
 site:example.com inurl:"Send Us a Message" | intitle:"Send Us a Message"
 site:example.com intitle:"contact.php" | intitle:"contactus" | intitle:"contactus.php" | intitle:"contactus.aspx" | intitle:"contactus.asp" | intitle:"contactus.html" | intitle:"contact-us.html" | intitle:"contact_us.html" | intitle:"contact.html" | intitle:"contactus.html"
+site:example.com intitle:"index of" "Backup" OR "Website-Backup" OR "User record"
 site:*.example.com intext:"index of /"
 site:*.example.com intitle:Swagger UI (inurl:/swagger-ui/ OR inurl:/swagger/ OR inurl:/api-docs/ OR inurl:/v2/api-docs OR inurl:/v3/api-docs OR inurl:swagger.json OR inurl:swagger.yaml) -github -gitlab -stackoverflow
 site:example.com intitle:index of inurl:ftp
@@ -56,3 +57,4 @@ site:example.com inurl:errmsg= | inurl:Itemid= | inurl:faq= | inurl:news_type= |
 site:example.com inurl:account= | inurl:group= | inurl:profile= | inurl:edit=
 
 site:example.com inurl:download= | inurl:path= | inurl:prefix= | inurl:include= | inurl:inc= | inurl:locate= | inurl:content= | inurl:document= | inurl:layout= | inurl:mod= | inurl:conf=
+

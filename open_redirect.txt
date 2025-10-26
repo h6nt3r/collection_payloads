@@ -4,6 +4,7 @@
 /%5cgoogle.com
 /%68%74%74%70%3a%2f%2f%67%6f%6f%67%6c%65%2e%63%6f%6d
 /.google.com
+////google%E3%80%82com
 //%09/google.com
 //%5cgoogle.com
 ///%09/google.com

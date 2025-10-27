@@ -75,7 +75,6 @@
 ?navigation=
 ?next_page=
 ?out=
-?page=
 ?page_url=
 ?port=
 ?reference=

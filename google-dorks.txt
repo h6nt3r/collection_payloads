@@ -11,6 +11,8 @@ site:example.com inurl:"submit a report" | intitle:"submit a report"
 site:example.com inurl:"Support Center" | intitle:"Support Center"
 site:example.com inurl:"Send Us a Message" | intitle:"Send Us a Message"
 site:example.com intitle:"contact.php" | intitle:"contactus" | intitle:"contactus.php" | intitle:"contactus.aspx" | intitle:"contactus.asp" | intitle:"contactus.html" | intitle:"contact-us.html" | intitle:"contact_us.html" | intitle:"contact.html" | intitle:"contactus.html"
+=================== File Upload=============================
+site:example.com "Choose an image to upload" OR "Select File" OR "Browse" OR "Drag and drop your file" OR "Attach File" OR "Select files" OR "File upload" OR "Upload your file" OR "Submit File" OR "Upload Documents" OR "Upload Image" OR "Drop files here to upload" OR "Choose files to upload" OR "Add File" OR "Upload PDF" OR "Upload Video" OR "Upload Photo" OR Import File" OR "Upload Resume" OR "Upload files" OR "Upload and Submit" OR "Choose a file" OR "Click to upload"
 ===================Information disclosure===================
 site:example.com intitle:"index of" "Backup" OR "Website-Backup" OR "User record"
 site:*.example.com intext:"index of /"
@@ -59,6 +61,7 @@ site:example.com inurl:errmsg= | inurl:Itemid= | inurl:faq= | inurl:news_type= |
 site:example.com inurl:account= | inurl:group= | inurl:profile= | inurl:edit=
 
 site:example.com inurl:download= | inurl:path= | inurl:prefix= | inurl:include= | inurl:inc= | inurl:locate= | inurl:content= | inurl:document= | inurl:layout= | inurl:mod= | inurl:conf=
+
 
 
 

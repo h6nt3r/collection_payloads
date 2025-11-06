@@ -1,5 +1,5 @@
 ==================Page finding=================
-site:example.com inurl:"submit messages" | inurl:"submit" | inurl:"submit messages" | inurl:"submit form" | intitle:"submit form"
+site:example.com inurl:"submit messages" | inurl:"submit" | inurl:"submit form" | intitle:"submit form"
 site:example.com inurl:"feedback.php" | inurl:"send feedback" | inurl:"feedbackus.php" | inurl:"feedback.aspx" | inurl:"feedback.asp" | inurl:"feedback.html" | intitle:"send feedback"
 site:example.com inurl:"submit a request" | intitle:"submit a request"
 site:example.com inurl:"request-form" | inurl:"submit-a-request" | inurl:"request-form.aspx" | inurl:"request.php" | intitle:"request form"
@@ -61,6 +61,7 @@ site:example.com inurl:errmsg= | inurl:Itemid= | inurl:faq= | inurl:news_type= |
 site:example.com inurl:account= | inurl:group= | inurl:profile= | inurl:edit=
 
 site:example.com inurl:download= | inurl:path= | inurl:prefix= | inurl:include= | inurl:inc= | inurl:locate= | inurl:content= | inurl:document= | inurl:layout= | inurl:mod= | inurl:conf=
+
 
 
 

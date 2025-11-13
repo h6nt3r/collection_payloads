@@ -1,7 +1,57 @@
-hostname:*.example.com&facet=domain
 hostname:"example.com" 200
-hostname:"*.example.com" http.title:"Swagger UI"
-hostname:"example.com" product:"apache" 200
-hostname:"example.com" product:"nginx" 200
-hostname:"example.com" http.title:"internal"
-
+========================= Title Search =====================
+hostname:"example.com" http.title:"Swagger UI"
+hostname:"example.com" http.title:"Internal"
+hostname:"example.com" http.title:"Dashboard"
+hostname:"example.com" http.title:"Login"
+hostname:"example.com" http.title:"Admin"
+hostname:"example.com" http.title:"control"
+hostname:"example.com" http.title:"config"
+hostname:"example.com" http.title:"configuration"
+hostname:"example.com" http.title:"phpinfo"
+hostname:"example.com" http.title:"manager"
+hostname:"example.com" http.title:"portal"
+hostname:"example.com" http.title:"error"
+hostname:"example.com" http.title:"welcome"
+hostname:"example.com" http.title:"setup"
+hostname:"example.com" http.title:"settings"
+hostname:"example.com" http.title:"database"
+hostname:"example.com" http.title:"backend"
+hostname:"example.com" http.title:"console"
+hostname:"example.com" http.title:"system"
+hostname:"example.com" http.title:"System Load"
+hostname:"example.com" http.title:"Index of /"
+hostname:"example.com" http.title:"iis"
+========================= File Name Search =====================
+hostname:"example.com" filename:.env
+hostname:"example.com" filename:.git
+hostname:"example.com" filename:.exports
+========================= Port Search =====================
+hostname:"example.com" "ftp"
+hostname:"example.com" "ssh"
+hostname:"example.com" "telnet"
+hostname:"example.com" "snmp"
+hostname:"example.com" "rdp"
+hostname:"example.com" "vnc"
+hostname:"example.com" "xampp"
+hostname:"example.com" "mqtt"
+hostname:"example.com" "smpp"
+hostname:"example.com" "ssh"
+hostname:"example.com" "ssh"
+========================= Server Search =====================
+hostname:"example.com" product:"mysql"
+hostname:"example.com" product:"postgresql"
+hostname:"example.com" product:"oracle"
+hostname:"example.com" product:"apache"
+hostname:"example.com" product:"nginx"
+hostname:"example.com" product:"mongodb"
+hostname:"example.com" product:"couchdb"
+========================= SSL Search =====================
+ssl.cert.subject.cn:"example.com"
+========================= Facet Analysis =====================
+hostname:example.com&facet=domain
+hostname:example.com&facet=ip
+hostname:example.com&facet=product
+hostname:example.com&facet=http.title
+hostname:example.com&facet=asn
+hostname:example.com&facet=hash

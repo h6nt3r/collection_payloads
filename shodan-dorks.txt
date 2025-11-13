@@ -22,6 +22,7 @@ hostname:"example.com" http.title:"system"
 hostname:"example.com" http.title:"System Load"
 hostname:"example.com" http.title:"Index of /"
 hostname:"example.com" http.title:"iis"
+http.favicon.hash:example.com title:"Juniper"
 ========================= File Name Search =====================
 hostname:"example.com" filename:.env
 hostname:"example.com" filename:.git
@@ -53,4 +54,5 @@ hostname:example.com&facet=product
 hostname:example.com&facet=http.title
 hostname:example.com&facet=asn
 hostname:example.com&facet=hash
+
 

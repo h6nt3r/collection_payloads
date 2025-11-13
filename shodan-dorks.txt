@@ -1,3 +1,4 @@
 hostname:*.example.com&facet=domain
-hostname:*.example.com http.title:"Swagger UI"
+hostname:"*.example.com" http.title:"Swagger UI"
 hostname:"example.com" product:"apache" 200
+hostname:"example.com" http.title:"internal"

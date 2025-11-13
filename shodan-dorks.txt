@@ -42,6 +42,7 @@ hostname:"example.com" "vnc"
 hostname:"example.com" "xampp"
 hostname:"example.com" "mqtt"
 hostname:"example.com" "smpp"
+hostname:"example.com" "smb"
 ========================= Server Search =====================
 hostname:"example.com" product:"mysql"
 hostname:"example.com" product:"postgresql"
@@ -57,6 +58,7 @@ hostname:example.com&facet=product
 hostname:example.com&facet=http.title
 hostname:example.com&facet=asn
 hostname:example.com&facet=hash
+
 
 
 

@@ -20,9 +20,21 @@ hostname:"example.com" http.title:"backend"
 hostname:"example.com" http.title:"console"
 hostname:"example.com" http.title:"system"
 hostname:"example.com" http.title:"System Load"
-hostname:"example.com" http.title:"Index of /"
 hostname:"example.com" http.title:"iis"
-hostname:"example.com" title:"Check Point"
+hostname:"example.com" http.title:"Check Point"
+hostname:"example.com" http.title:"citrix gateway"
+hostname:"example.com" http.title:"Microsoft SharePoint"
+hostname:"example.com" http.title:"Langflow"
+hostname:"example.com" http.title:"ManageEngine"
+hostname:"example.com" http.title:"Juniper Web Device Manager"
+hostname:"example.com" http.title:"SysAid"
+hostname:"example.com" http.title:'HFS'
+hostname:"example.com" http.title:"Sitecore"
+hostname:"example.com" http.title:"Index of /"
+hostname:"example.com" http.title:"Ivanti Connect"
+hostname:"example.com" http.title:"Pandora FMS"
+hostname:"example.com" http.title:"Mautic"
+hostname:"example.com" http.title:"openam"
 ========================= Favicon Hash Search =====================
 http.favicon.hash:example.com title:"Juniper"
 ========================= SSL Search =====================
@@ -35,6 +47,7 @@ hostname:"example.com" filename:.exports
 ========================= Port Search =====================
 hostname:"example.com" "ftp"
 hostname:"example.com" "ssh"
+hostname:"example.com" "openssh"
 hostname:"example.com" "telnet"
 hostname:"example.com" "snmp"
 hostname:"example.com" "rdp"
@@ -43,14 +56,26 @@ hostname:"example.com" "xampp"
 hostname:"example.com" "mqtt"
 hostname:"example.com" "smpp"
 hostname:"example.com" "smb"
-========================= Server Search =====================
+hostname:"example.com" "proftpd"
+========================= Server/Product Search =====================
 hostname:"example.com" product:"mysql"
 hostname:"example.com" product:"postgresql"
 hostname:"example.com" product:"oracle"
 hostname:"example.com" product:"apache"
 hostname:"example.com" product:"nginx"
 hostname:"example.com" product:"mongodb"
+hostname:"example.com" product:"memcached"
 hostname:"example.com" product:"couchdb"
+hostname:"example.com" product:"Jenkins"
+hostname:"example.com" product:"Jenkins" -"2.442"-"2.426.3"
+hostname:"example.com" product:"Grafana"
+hostname:"example.com" product:"Apache-Tomcat"
+hostname:"example.com" product:"Cisco ASA SSL VPN"
+hostname:"example.com" product:"Oracle WebLogic Server"
+========================= OS Search =====================
+hostname:"example.com" os:"PAN-OS"
+hostname:"example.com" os:"Windows"
+hostname:"example.com" os:"Linux"
 ========================= Facet Analysis =====================
 hostname:example.com&facet=domain
 hostname:example.com&facet=ip
@@ -58,8 +83,9 @@ hostname:example.com&facet=product
 hostname:example.com&facet=http.title
 hostname:example.com&facet=asn
 hostname:example.com&facet=hash
-
-
-
-
-
+========================= Others Search =====================
+hostname:"example.com" http.component:"outlook web app"
+hostname:"example.com" http.component:"Zabbix"
+hostname:"example.com" http.component:"teamcity"
+hostname:"example.com" html:"LoadMaster"
+hostname:"example.com" http.html:"GeoServer"

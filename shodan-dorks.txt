@@ -4,5 +4,3 @@ hostname:"*.example.com" http.title:"Swagger UI"
 hostname:"example.com" product:"apache" 200
 hostname:"example.com" product:"nginx" 200
 hostname:"example.com" http.title:"internal"
-
-

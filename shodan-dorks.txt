@@ -22,6 +22,7 @@ hostname:"example.com" http.title:"system"
 hostname:"example.com" http.title:"System Load"
 hostname:"example.com" http.title:"Index of /"
 hostname:"example.com" http.title:"iis"
+hostname:"example.com" title:"Check Point"
 ========================= Favicon Hash Search =====================
 http.favicon.hash:example.com title:"Juniper"
 ========================= SSL Search =====================
@@ -56,6 +57,7 @@ hostname:example.com&facet=product
 hostname:example.com&facet=http.title
 hostname:example.com&facet=asn
 hostname:example.com&facet=hash
+
 
 
 

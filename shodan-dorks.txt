@@ -1,6 +1,7 @@
 hostname:"example.com" 200
 ========================= Title Search =====================
 hostname:"example.com" http.title:"Swagger UI"
+hostname:"example.com" http.title:"DisallowedHost at /"
 hostname:"example.com" http.title:"Internal"
 hostname:"example.com" http.title:"Dashboard"
 hostname:"example.com" http.title:"Login"
@@ -109,4 +110,5 @@ hostname:"example.com" http.component:"outlook web app"
 hostname:"example.com" http.component:"Zabbix"
 hostname:"example.com" http.component:"teamcity"
 hostname:"example.com" html:"LoadMaster"
+
 

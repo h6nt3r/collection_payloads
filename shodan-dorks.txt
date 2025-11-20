@@ -40,6 +40,27 @@ http.favicon.hash:example.com title:"Juniper"
 ========================= SSL Search =====================
 ssl.cert.subject.cn:"example.com"
 ssl:"example.com" title:"Check Point"
+========================= Find Keys & Tokens =====================
+hostname:"example.com" http.html:"GeoServer"
+hostname:"example.com" http.html:"api_key"
+hostname:"example.com" http.html:"auth_token"
+hostname:"example.com" http.html:"access_token"
+hostname:"example.com" http.html:"secret_key"
+hostname:"example.com" http.html:"aws_access_key_id"
+hostname:"example.com" http.html:"private_key"
+hostname:"example.com" http.html:"jwt"
+hostname:"example.com" http.html:"bearer token"
+hostname:"example.com" http.html:"token="
+hostname:"example.com" http.html:"password"
+hostname:"example.com" http.html:"admin"
+hostname:"example.com" http.html:"login"
+hostname:"example.com" http.html:"user"
+hostname:"example.com" http.html:"email"
+hostname:"example.com" http.html:"ssn"
+hostname:"example.com" http.html:"address"
+hostname:"example.com" http.html:"phone"
+hostname:"example.com" http.html:"invoice"
+hostname:"example.com" http.html:"new PhpDebugBar.DebugBar"
 ========================= File Name Search =====================
 hostname:"example.com" filename:.env
 hostname:"example.com" filename:.git
@@ -88,4 +109,4 @@ hostname:"example.com" http.component:"outlook web app"
 hostname:"example.com" http.component:"Zabbix"
 hostname:"example.com" http.component:"teamcity"
 hostname:"example.com" html:"LoadMaster"
-hostname:"example.com" http.html:"GeoServer"
+

@@ -1,1 +1,2 @@
 host="example.com" && body="config.js"
+host="example.com" && (body=".php" || body=".pdf" || body=".xls" || body=".html" || body=".js" || body=".json" || body=".jpg" || body=".conf")

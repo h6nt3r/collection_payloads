@@ -1,1 +1,2 @@
 domain="example.com"
+domain="example.com" and product.name=="IIS"

@@ -1,0 +1,4 @@
+host="example.com" && (body="config.js" || body="settings.js" || body="env.js" || body="firebase-config.js")
+host="example.com" && (body=".php" || body=".pdf" || body=".xls" || body=".html" || body=".js" || body=".json" || body=".jpg" || body=".conf")
+host="example.com" && title="ComfyUI" && header!="aiohttp/3.9.3" && header!="aiohttp/3.9.2"
+host="example.com" && "Langflow"

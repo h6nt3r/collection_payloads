@@ -1,0 +1,114 @@
+hostname:"example.com" 200
+========================= Title Search =====================
+hostname:"example.com" http.title:"Swagger UI"
+hostname:"example.com" http.title:"DisallowedHost at /"
+hostname:"example.com" http.title:"Internal"
+hostname:"example.com" http.title:"Dashboard"
+hostname:"example.com" http.title:"Login"
+hostname:"example.com" http.title:"Admin"
+hostname:"example.com" http.title:"control"
+hostname:"example.com" http.title:"config"
+hostname:"example.com" http.title:"configuration"
+hostname:"example.com" http.title:"phpinfo"
+hostname:"example.com" http.title:"manager"
+hostname:"example.com" http.title:"portal"
+hostname:"example.com" http.title:"error"
+hostname:"example.com" http.title:"welcome"
+hostname:"example.com" http.title:"setup"
+hostname:"example.com" http.title:"settings"
+hostname:"example.com" http.title:"database"
+hostname:"example.com" http.title:"backend"
+hostname:"example.com" http.title:"console"
+hostname:"example.com" http.title:"system"
+hostname:"example.com" http.title:"System Load"
+hostname:"example.com" http.title:"iis"
+hostname:"example.com" http.title:"Check Point"
+hostname:"example.com" http.title:"citrix gateway"
+hostname:"example.com" http.title:"Microsoft SharePoint"
+hostname:"example.com" http.title:"Langflow"
+hostname:"example.com" http.title:"ManageEngine"
+hostname:"example.com" http.title:"Juniper Web Device Manager"
+hostname:"example.com" http.title:"SysAid"
+hostname:"example.com" http.title:'HFS'
+hostname:"example.com" http.title:"Sitecore"
+hostname:"example.com" http.title:"Index of /"
+hostname:"example.com" http.title:"Ivanti Connect"
+hostname:"example.com" http.title:"Pandora FMS"
+hostname:"example.com" http.title:"Mautic"
+hostname:"example.com" http.title:"openam"
+========================= Favicon Hash Search =====================
+http.favicon.hash:example.com title:"Juniper"
+========================= SSL Search =====================
+ssl.cert.subject.cn:"example.com"
+ssl:"example.com" title:"Check Point"
+========================= Find Keys & Tokens =====================
+hostname:"example.com" http.html:"GeoServer"
+hostname:"example.com" http.html:"api_key"
+hostname:"example.com" http.html:"auth_token"
+hostname:"example.com" http.html:"access_token"
+hostname:"example.com" http.html:"secret_key"
+hostname:"example.com" http.html:"aws_access_key_id"
+hostname:"example.com" http.html:"private_key"
+hostname:"example.com" http.html:"jwt"
+hostname:"example.com" http.html:"bearer token"
+hostname:"example.com" http.html:"token="
+hostname:"example.com" http.html:"password"
+hostname:"example.com" http.html:"admin"
+hostname:"example.com" http.html:"login"
+hostname:"example.com" http.html:"user"
+hostname:"example.com" http.html:"email"
+hostname:"example.com" http.html:"ssn"
+hostname:"example.com" http.html:"address"
+hostname:"example.com" http.html:"phone"
+hostname:"example.com" http.html:"invoice"
+hostname:"example.com" http.html:"new PhpDebugBar.DebugBar"
+========================= File Name Search =====================
+hostname:"example.com" filename:.env
+hostname:"example.com" filename:.git
+hostname:"example.com" filename:.exports
+========================= Port Search =====================
+hostname:"example.com" "ftp"
+hostname:"example.com" "ssh"
+hostname:"example.com" "openssh"
+hostname:"example.com" "telnet"
+hostname:"example.com" "snmp"
+hostname:"example.com" "rdp"
+hostname:"example.com" "vnc"
+hostname:"example.com" "xampp"
+hostname:"example.com" "mqtt"
+hostname:"example.com" "smpp"
+hostname:"example.com" "smb"
+hostname:"example.com" "proftpd"
+========================= Server/Product Search =====================
+hostname:"example.com" product:"mysql"
+hostname:"example.com" product:"postgresql"
+hostname:"example.com" product:"oracle"
+hostname:"example.com" product:"apache"
+hostname:"example.com" product:"nginx"
+hostname:"example.com" product:"mongodb"
+hostname:"example.com" product:"memcached"
+hostname:"example.com" product:"couchdb"
+hostname:"example.com" product:"Jenkins"
+hostname:"example.com" product:"Jenkins" -"2.442"-"2.426.3"
+hostname:"example.com" product:"Grafana"
+hostname:"example.com" product:"Apache-Tomcat"
+hostname:"example.com" product:"Cisco ASA SSL VPN"
+hostname:"example.com" product:"Oracle WebLogic Server"
+========================= OS Search =====================
+hostname:"example.com" os:"PAN-OS"
+hostname:"example.com" os:"Windows"
+hostname:"example.com" os:"Linux"
+========================= Facet Analysis =====================
+hostname:example.com&facet=domain
+hostname:example.com&facet=ip
+hostname:example.com&facet=product
+hostname:example.com&facet=http.title
+hostname:example.com&facet=asn
+hostname:example.com&facet=hash
+========================= Others Search =====================
+hostname:"example.com" http.component:"outlook web app"
+hostname:"example.com" http.component:"Zabbix"
+hostname:"example.com" http.component:"teamcity"
+hostname:"example.com" html:"LoadMaster"
+
+

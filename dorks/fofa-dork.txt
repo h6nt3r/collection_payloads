@@ -1,4 +1,57 @@
-host="example.com" && (body="config.js" || body="settings.js" || body="env.js" || body="firebase-config.js")
-host="example.com" && (body=".php" || body=".pdf" || body=".xls" || body=".html" || body=".js" || body=".json" || body=".jpg" || body=".conf")
+host="example.com" && status_code="200"
+cert.subject.cn="example.com"
+icon_hash="example.com"
+=========================== Sensitive finding ========================
+host="example.com" && (title="phpinfo()" || title="Jenkins" || title="Grafana" || title="xampp" || title="Nexus Repository Manager" || title="Langflow" || (title="Swagger UI" && body="basePath") || title="netdata dashboard" || title="admin" || title="email" || title="invoice")
+host="example.com" && protocol="http" && port!="80" && port!="443"
+host="example.com" && (title="File Browser" || title="AjaXplorer" || title="YaCy Search" || title="elFinder" || title="Monsta FTP" || body="Monsta Web FTP" || title="eXtplorer" || body="Powered by eXtplorer" || title="net2ftp" || body="net2ftp - a web based FTP client")
+(protocol="smtp" || protocol="ftp" || protocol="ssh" || protocol="telnet" || protocol="rdp" || protocol="vnc" || protocol="smb")
+host="example.com" && (body="config.js" || body="settings.js" || body="env.js" || body="firebase-config.js" || body="runTime.json" || body="require.js" || body="mainfest.json")
+host="example.com" && app="phpMyAdmin" && port!=3306 && title="phpMyAdmin"
+host="example.com" && (body="/api/v2" || body="/api/v1" || body="/api/user/")
+host="example.com" && (body="admin" || body="dashboard" || body="internal" || body="panel" || body="" || body="control" || body="config" || body="configuration" || body="phpinfo" || body="manager" || body="portal" || body="setup" || body="settings" || body="database" || body="backend" || body="console" || body="GeoServer admin")
+host="example.com" && (protocol="mongodb" || protocol="postgres" || protocol="oracle" || protocol="couchdb" || protocol="mqtt" || protocol="mssql")
+host="example.com" && (server="windows" || server="linux" || server="pan")
+host="example.com" && (server="nginx" || server="Apache" || server="AmazonS3")
+host="example.com" && (body="password_control" || body="private" || body="secret")
+host="example.com" && (body="app.log" || body="error.log" || body="access.log" || body="debug.log" || body="laravel.log" || body=".log")
+host="example.com" && (body=".bkf" || body=".pdf" || body=".xls" || body=".conf" || body=".cnf" || body=".inf" || body=".sql" || body=".dbf" || body=".mdb" || body=".bak" || body=".old")
 host="example.com" && title="ComfyUI" && header!="aiohttp/3.9.3" && header!="aiohttp/3.9.2"
-host="example.com" && "Langflow"
+host="example.com" && (body="firebaseapp" || body="firebaseconfig")
+host="example.com" && body="ListBucketResult"
+host="example.com" && body="r2.dev"
+host="example.com" && body="r2.cloudflarestorage.com"
+body="specified bucket does not exist" && (host="example.com") && port="443"
+host="example.com" && (body="register" || body="registration" || body="login" || body="signin" || body="signup")
+host="example.com" && body="Index of /"
+host="example.com" && title="SysAid" || body="SysAid Technologies"
+host="example.com" && body="new WebSocket" && body="ws://"
+host="example.com" && (body="graphql" || body="query {" || body="__typename" || body="mutation")
+host="example.com" && body="fetch(" || body="/api/v1" || body="/api/v2" || body="/admin"
+===================== Error finding ==============================
+domain="example.com" && body="Whitelabel Error Page" && body="This application has no configured error view"
+host="example.com" && (title=="Internal Server Error" || title=="System Error" || title="syntax error")
+host="example.com" && (title="OperationalError at /" && body="Traceback")
+host="example.com" && body="You have an error in your SQL syntax"
+host="example.com" && body="ORA-00933"
+host="example.com" && body="PG::SyntaxError:"
+host="example.com" && body="Xdebug" && header="Xdebug"
+host="example.com" && body="403 Forbidden" && header!="Cloudflare" && header!="Akamai"
+===================== Others finding ==============================
+domain="example.com" && body="Server API" && body="display_startup_errors"
+domain="example.com" && (body="postMessage")
+domain="example.com" && body="eval("
+domain="example.com" && body="http.delete"
+domain="example.com" && "ThinkPHP"
+domain="example.com" && body="remoteapp2+html5" && body="Web Access"
+host="example.com" && body="config/database.yml"
+host="example.com" && body="aws_access_key_id"
+host="example.com" && title="Envoy Admin" && body="stats"
+host="example.com" && title="Traefik" && body="Routers"
+host="example.com" && body="HAProxy"
+host="example.com" && title="Statistics Report for HAProxy"
+host="example.com" && title="index of" && body=".DS_Store"
+===================== Github finding ==============================
+host="example.com" && body="/.github/workflows/" && title="index of"
+host="example.com" && body="actions/setup-node"
+host="example.com" && body="GITHUB_TOKEN="

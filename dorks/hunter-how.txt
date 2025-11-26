@@ -1,3 +1,4 @@
 domain="example.com"
 domain="example.com" AND web.title="grafana"
+domain="example.com" AND (web.title="grafana" OR product.name="PAN-OS")
 domain="example.com" and product.name=="IIS"

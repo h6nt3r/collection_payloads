@@ -1,5 +1,6 @@
 domain="example.com"
 domain="example.com" AND web.title="grafana"
+domain="example.com" AND (web.body="invoice" OR web.body="GeoServer" OR web.body="api_key" OR web.body="auth_token" OR web.body="access_token" OR web.body="secret_key" OR web.body="aws_access_key_id" OR web.body="private_key" OR web.body="jwt" OR web.body="bearer token" OR web.body="password" OR web.body="user" OR web.body="email" OR web.body="invoice" OR web.body="new PhpDebugBar.DebugBar")
 domain="example.com" AND (web.title="grafana" OR product.name="PAN-OS")
 domain="example.com" AND (product.name="windows" OR product.name="linux" OR product.name="PAN-OS")
 domain="example.com" AND (web.title="grafana" OR web.title="Internal" OR web.title="Dashboard" OR web.title="Admin" OR web.title="Control" OR web.title="Manager" OR web.title="Portal" OR web.title="ManageEngine" OR web.title="console")

@@ -1,4 +1,4 @@
-domain="example.com"
+domain="example.com"&&header.status_code=="200"
 cert.subject="example.com"&&header.status_code=="200"
 domain="example.com" AND web.title="grafana"
 ========================== secret & keys Find ===========================

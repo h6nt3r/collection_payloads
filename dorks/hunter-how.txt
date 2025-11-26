@@ -1,2 +1,3 @@
 domain="example.com"
+domain="example.com" AND web.title="grafana"
 domain="example.com" and product.name=="IIS"

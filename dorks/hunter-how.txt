@@ -2,4 +2,4 @@ domain="example.com"
 domain="example.com" AND web.title="grafana"
 domain="example.com" AND (web.title="grafana" OR product.name="PAN-OS")
 domain="example.com" AND (product.name="windows" OR product.name="linux" OR product.name="PAN-OS")
-domain="example.com" AND (web.title="grafana" OR web.title="Internal" OR web.title="Dashboard" OR web.title="Admin" OR web.title="Control" OR web.title="Manager" OR web.title="Portal" OR web.title="ManageEngine")
+domain="example.com" AND (web.title="grafana" OR web.title="Internal" OR web.title="Dashboard" OR web.title="Admin" OR web.title="Control" OR web.title="Manager" OR web.title="Portal" OR web.title="ManageEngine" OR web.title="console")

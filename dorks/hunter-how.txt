@@ -14,3 +14,5 @@ domain="example.com" AND (web.title="phpinfo" OR web.title="Nexus Repository Man
 domain="example.com" AND (web.title="login" OR web.title="welcome" OR web.title="error" OR web.title="setup" OR web.title="settings" OR web.title="database" OR web.title="backend" OR web.title="ManageEngine")
 ========================== File Manager Find ===========================
 domain="example.com" AND (web.title="File Browser" OR web.title="AjaXplorer" OR web.title="YaCy Search" OR web.title="elFinder" OR web.title="Monsta FTP" OR web.title="Monsta Web FTP" OR web.title="eXtplorer" OR web.title="Powered by eXtplorer" OR web.title="net2ftp" OR web.title="net2ftp - a web based FTP client")
+==================== Others find ===========================
+domain="example.com" AND (web.body="app.log" || web.body="error.log" || web.body="access.log" || web.body="debug.log" || web.body="laravel.log" || web.body=".log")

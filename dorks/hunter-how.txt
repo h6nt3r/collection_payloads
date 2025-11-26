@@ -1,13 +1,13 @@
 domain="example.com"&&header.status_code=="200"
 cert.subject="example.com"&&header.status_code=="200"
 domain="example.com" AND web.title="grafana"
+========================== Juicy internal dashboard Find ===========================
+domain="example.com" AND (web.title="grafana" OR web.title="Internal" OR web.title="Dashboard" OR web.title="Admin" OR web.title="Control" OR web.title="Manager" OR web.title="Portal" OR web.title="ManageEngine" OR web.title="console")
 ========================== secret & keys Find ===========================
 domain="example.com" AND (web.body="invoice" OR web.body="GeoServer" OR web.body="api_key" OR web.body="auth_token" OR web.body="access_token" OR web.body="secret_key" OR web.body="aws_access_key_id" OR web.body="private_key" OR web.body="jwt" OR web.body="bearer token" OR web.body="password" OR web.body="user" OR web.body="email" OR web.body="invoice" OR web.body="new PhpDebugBar.DebugBar")
 domain="example.com" AND (web.title="grafana" OR product.name="PAN-OS")
 ========================== Operating system OS Find ===========================
 domain="example.com" AND (product.name="windows" OR product.name="linux" OR product.name="PAN-OS")
-========================== Juicy internal dashboard Find ===========================
-domain="example.com" AND (web.title="grafana" OR web.title="Internal" OR web.title="Dashboard" OR web.title="Admin" OR web.title="Control" OR web.title="Manager" OR web.title="Portal" OR web.title="ManageEngine" OR web.title="console")
 ========================== Juicy info Find ===========================
 domain="example.com" AND (web.title="phpinfo" OR web.title="Nexus Repository Manager" OR web.title="Swagger UI" OR web.title="netdata dashboard")
 ========================== Configs Find ===========================

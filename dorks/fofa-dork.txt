@@ -1,6 +1,8 @@
 host="example.com" && status_code="200"
 cert.subject.cn="example.com"
 icon_hash="example.com"
+=========================== cve finding ========================
+host="example.com" && body="liferayPortalCSS"
 =========================== Sensitive finding ========================
 host="example.com" && (title="phpinfo()" || title="Jenkins" || title="Grafana" || title="xampp" || title="Nexus Repository Manager" || title="Langflow" || (title="Swagger UI" && body="basePath") || title="netdata dashboard" || title="admin" || title="email" || title="invoice")
 host="example.com" && protocol="http" && port!="80" && port!="443"

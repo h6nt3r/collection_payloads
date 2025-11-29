@@ -1,6 +1,8 @@
 domain="example.com"&&header.status_code=="200"
 cert.subject="example.com"&&header.status_code=="200"
 domain="example.com" AND web.title="grafana"
+========================== Recent cves Find ===========================
+domain="example.com" AND web.title="liferay" OR web.title="global-protect"
 ========================== Juicy internal dashboard Find ===========================
 domain="example.com" AND (web.title="grafana" OR web.title="Internal" OR web.title="Dashboard" OR web.title="Admin" OR web.title="Control" OR web.title="Manager" OR web.title="Portal" OR web.title="ManageEngine" OR web.title="console")
 ========================== secret & keys Find ===========================

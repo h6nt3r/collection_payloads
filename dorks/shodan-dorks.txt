@@ -1,4 +1,8 @@
 hostname:"example.com" 200
+========================= Favicon Hash Search =====================
+http.favicon.hash:example.com title:"Juniper"
+========================= SSL Search =====================
+ssl.cert.subject.cn:"example.com"
 ========================= Title Search =====================
 hostname:"example.com" http.title:"Swagger UI"
 hostname:"example.com" http.title:"DisallowedHost at /"
@@ -36,11 +40,6 @@ hostname:"example.com" http.title:"Ivanti Connect"
 hostname:"example.com" http.title:"Pandora FMS"
 hostname:"example.com" http.title:"Mautic"
 hostname:"example.com" http.title:"openam"
-========================= Favicon Hash Search =====================
-http.favicon.hash:example.com title:"Juniper"
-========================= SSL Search =====================
-ssl.cert.subject.cn:"example.com"
-ssl:"example.com" title:"Check Point"
 ========================= Find Keys & Tokens =====================
 hostname:"example.com" http.html:"GeoServer"
 hostname:"example.com" http.html:"api_key"
@@ -110,5 +109,4 @@ hostname:"example.com" http.component:"outlook web app"
 hostname:"example.com" http.component:"Zabbix"
 hostname:"example.com" http.component:"teamcity"
 hostname:"example.com" html:"LoadMaster"
-
-
+ssl:"example.com" title:"Check Point"

